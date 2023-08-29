@@ -1,12 +1,21 @@
 import React from "react";
-import { FaGithub, FaCss3, FaHtml5, FaReact, FaNodeJs } from "react-icons/fa";
+import {
+  FaGithub,
+  FaCss3,
+  FaHtml5,
+  FaReact,
+  FaNodeJs,
+  FaPhp,
+} from "react-icons/fa";
 import {
   SiJavascript,
   SiMongodb,
   SiFirebase,
   SiTailwindcss,
   SiExpress,
+  SiMysql,
 } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
 
 const Skills = () => {
   return (
@@ -73,6 +82,16 @@ const Skills = () => {
           <div className="p-6 shadow-md rounded-xl hover:scale-105 ease-in duration-300 bg-secondary">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
+                <TbBrandNextjs size={35} />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Next Js</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-md rounded-xl hover:scale-105 ease-in duration-300 bg-secondary">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
                 <FaGithub size={35} />
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -93,6 +112,16 @@ const Skills = () => {
           <div className="p-6 shadow-md rounded-xl hover:scale-105 ease-in duration-300 bg-secondary">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
+                <FaPhp size={35} />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Php</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-md rounded-xl hover:scale-105 ease-in duration-300 bg-secondary">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
                 <SiExpress size={35} />
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -107,6 +136,16 @@ const Skills = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3 className="whitespace-nowrap">Mongo DB</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-md rounded-xl hover:scale-105 ease-in duration-300 bg-secondary">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <SiMysql size={35} />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3 className="whitespace-nowrap">MySql</h3>
               </div>
             </div>
           </div>

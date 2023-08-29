@@ -5,21 +5,24 @@ const modalData = [
   {
     id: 1,
     title: "Fylo Storage",
-    content: "Content for Modal 1",
+    content:
+      "This application is built with NextJs, Firebase storage and hosted on vercel. It's a challenge from Frontend Mentor. It a fullstack app using Nextjs, Next-Auth for authentication, TailwindCss and daisyUI for styling, Firebase storage for convert the file into URL for easy access. User can create folder and subfolder and store files into the folder. In summary a cloud storage to keep file like image, pdf e.t.c . Test account Email: test@test.com, Password: 1234",
     code: "https://github.com/gamelayo/fylo",
     demo: "https://fylo-gamelayo.vercel.app",
   },
   {
     id: 2,
     title: "Todo App",
-    content: "Content for Modal 2",
+    content:
+      "This application is built with ReactJs and hosted on vercel. It's a challenge from Frontend Mentor. Add new todos to the list, Mark todos as complete, Delete todos from the list, Filter by all/active/complete todos, Clear all completed todos, Toggle light and dark mode,  Drag and drop to reorder items on the list.",
     code: "https://github.com/gamelayo/todo-app-main",
     demo: "https://todo-app-gamelayo.vercel.app/",
   },
   {
     id: 3,
-    title: "Static Job listing",
-    content: "Content for Modal 3",
+    title: "Job listings with filtering",
+    content:
+      "This application is built with ReactJs and hosted on vercel. It's a challenge from Frontend Mentor. Filter job listings based on the categories selected. View the optimal layout for the interface depending on their device's screen size",
     code: "https://github.com/gamelayo/static-job-listings",
     demo: "https://static-job-listings-gamelayo.vercel.app",
   },
@@ -34,14 +37,16 @@ const modalData = [
   {
     id: 5,
     title: "Jojo Place",
-    content: "Content for Modal 6",
+    content:
+      "This is a Php app and hosted on 000webhostapp. Jojo place is a user-friendly restaurant app designed to enhance the dining experience. It simplifies table booking and food ordering, allowing customers to seamlessly reserve tables, explore menus, customize orders, and securely pay through the app. With real-time order tracking, and the option to provide feedback, Jojo place ensures a convenient and enjoyable dining journey. Test account Email: test@test.com, Password: 1234",
     code: "https://github.com/gamelayo/jojoPlace",
     demo: "https://overhanging-article.000webhostapp.com",
   },
   {
     id: 6,
     title: "Contact Manager",
-    content: "Content for Modal 6",
+    content:
+      "This is a Mern stack app and hosted on render. It's a challenge to test my ability to make a Mern CRUD functioning App. React Redux and ReduxJs/toolkit for state management, MonogoDB for storing data to the database, Nodejs and ExpressJs for the backend, Jsonwebtoken for authentication. In summary just CRUD App where users can storage their contact information like email and phone number. Test account Email: test@test.com, Password: 1234 ",
     code: "https://github.com/gamelayo/contact-manager",
     demo: "https://contact-manager-rx78.onrender.com",
   },
