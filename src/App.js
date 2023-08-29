@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import Modal from "./component/Modal";
+import Main from "./pages/Main";
 
 function App() {
+  const [showModal, setShowModal] = useState(false);
+  const [selectedId, setSelectedId] = useState(1);
+  console.log(selectedId);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Main setSelectedId={setSelectedId} setShowModal={setShowModal} />
+      {showModal ? (
+        <Modal setShowModal={setShowModal} selectedId={selectedId} />
+      ) : null}
     </div>
   );
 }
