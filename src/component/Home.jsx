@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <section className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-2 my-6">
       <div className="bg-gradient-to-r from-zinc-200 to-yellow-200 h-[auto] rounded-3xl p-10 flex flex-col gap-4   bg-cover order-2 md:order-1">
-        <h1 className="text-4xl font-semibold">Hello, I'm am Gamel Ayodele.</h1>
+        <h1 className="text-4xl font-semibold">Hello, I'm Gamel Ayodele.</h1>
         <p className="flex-1">
           A self-taught MERN and Next.js developer with three years of
           experience, I have honed my skills in building modern web applications
