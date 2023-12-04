@@ -10,15 +10,15 @@ const Home = () => {
       <div className="bg-gradient-to-r from-zinc-200 to-yellow-200 h-[auto] rounded-3xl p-10 flex flex-col gap-4   bg-cover order-2 md:order-1">
         <h1 className="text-4xl font-semibold">Hello, I'm am Gamel Ayodele.</h1>
         <p className="flex-1">
-          A self-taught MERN and Next.js developer with three years of
-          experience, I have honed my skills in building modern web applications
-          that are both dynamic and performant. My journey began with a strong
-          foundation in web development concepts and technologies, and I've
-          progressively expanded my knowledge to become proficient in the MERN
-          stack (MongoDB, Express.js, React, and Node.js) as well as Next.js. My
-          commitment to staying at the forefront of technology also extends to
-          my ongoing learning journey, where I am currently honing my skills in
-          TypeScript and PHP.
+          A MERN and Next.js developer with three years of experience, I have
+          honed my skills in building modern web applications that are both
+          dynamic and performant. My journey began with a strong foundation in
+          web development concepts and technologies, and I've progressively
+          expanded my knowledge to become proficient in the MERN stack (MongoDB,
+          Express.js, React, and Node.js) as well as Next.js. My commitment to
+          staying at the forefront of technology also extends to my ongoing
+          learning journey, where I am currently honing my skills in TypeScript
+          and Python.
         </p>
         <div className="flex flex-col lg:flex-row items-center gap-4 justify-self-end mt-2">
           <a
